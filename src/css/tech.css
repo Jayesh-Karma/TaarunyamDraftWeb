@@ -1,0 +1,116 @@
+
+#tech-banner{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+#tech-banner img{
+    width:100%;
+    height: 100%;
+    filter: brightness(0.8);
+    position: fixed;
+    top: 0;
+    z-index: -1;
+}
+#tech-content{
+    width: 100%;
+    height: 100vh;
+}
+
+/* ------nav bar of technical games ----- */
+
+
+#startList{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    color: white;
+
+}
+#startList>ul>.borders>li>a{
+    font-size: 4rem;
+    color: white;
+    text-decoration: none;
+}
+#startList>ul>.borders>li{
+    width: 100%;
+    margin-top: 3rem;
+    list-style-type: none;
+}
+.borders{
+    width: 95%;
+    margin: 0 4%;
+    border-bottom: 2px solid #888;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+/* ----CS content  ---------*/
+.tech-content{
+    padding-top: 150px;
+    width: 100%;
+    height: auto;
+    color: white;
+    background-color: black;
+}
+.tech-content>h1{
+    font-family: 'Stalinist One', cursive;
+    letter-spacing: 5px;
+    font-size: 4rem;
+    background-color: yellow;
+    color: black;
+    text-align: center;
+}
+.techList{
+    width: 95%;
+    margin: 0 5%;
+    height: auto;
+}
+.techList>h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 2rem;
+    font-size: 3rem;
+}
+.csContent{
+    padding-top: 50px;
+
+}
+.csContent>h4{
+    color: yellow;
+    font-size: 3rem;
+    display: inline;
+}
+
+details{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+details>p{
+    margin-top: 20px;
+    font-size: 1.2rem;
+}
+details>img{
+    width: 50%;
+}
+details>h3{
+    color: orange;
+    font-size: 1.5rem;
+    font-family: 'Croissant One', cursive;
+}
+details>h4{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+details>button{
+    text-align: center;
+    margin-top: 5px;
+    text-align: center;
+    padding: 5px 10px ;
+    border-radius: 25px;
+    background-color: yellow;
+    font-weight: 500;
+}
